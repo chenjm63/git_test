@@ -1,0 +1,49 @@
+# ===== 操作系统 =====
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+*~
+.directory
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== Office 临时锁文件（Word/Excel/PPT 打开时产生）=====
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.xls
+~$*.pptx
+~$*.ppt
+~$*
+
+# ===== 临时 / 日志 / 备份 =====
+*.tmp
+*.temp
+*.log
+*.bak
+
+# ===== 依赖目录（如放 Node / JS 项目）=====
+node_modules/
+bower_components/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== 编译 / 构建产物 =====
+dist/
+build/
